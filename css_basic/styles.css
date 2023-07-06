@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+main{
+    display:flex;
+    flex-direction:row;
+    flex:auto;
+}
+
+article{
+    flex:2;
+    overflow-y: auto;
+}
+
+aside{
+    flex:1;
+    overflow-y: auto
+}
+
+h1{
+    color:#f27d16;
+    font-size: 70px;
+}
+
+tr, th, td{
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+table thead tr{
+    color: #f27d16;
+    background-color: #00114c;
+   
+}
+
+a:link{
+    color:#f27d16;
+}
+
+a:visited{
+    color:#29aae2;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+article h2 a{
+    background-color: #00114c;
+}
