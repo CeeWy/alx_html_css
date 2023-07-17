@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 1400px;
+    height: 3720px;
+    font-family: 'Source Sans Pro';
+}
+header{
+    height: 30px;
+    width: 1105px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+header img{
+    height: 30;
+    width: 167px;
+}
+nav{
+    height: 15px;
+    width: 235px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+main{
+    height: 1095px;
+    width: 1440px;
+    background-image: url("assests/Object.png");
+    background-repeat: no-repeat;
+    background-size: 1440px 1095px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner{
+    height: 1010px;
+    width: 775px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner h1{
+    font-size: 120px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.banner p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.banner div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bannerText{
+    width: 255px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    height: 45px;
+    width: 165px;
+    background-color: #C271FF;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 22px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+    cursor: pointer;
+}
