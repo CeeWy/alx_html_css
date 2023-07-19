@@ -4,6 +4,9 @@ body{
     width: 1400px;
     height: 3720px;
     font-family: 'Source Sans Pro';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header{
     height: 30px;
@@ -30,6 +33,9 @@ nav a{
     text-decoration: none;
     color: #ffffff;
 }
+ nav a:hover{
+    color: #C271FF;
+ }
 main{
     height: 1095px;
     width: 1440px;
@@ -46,17 +52,19 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 150px;
 }
 .banner h1{
     font-size: 120px;
     font-weight: bold;
     color: #ffffff;
-    margin-bottom: 0;
+    margin: 0;
 }
 .banner p{
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
+    margin: 0;
 }
 #bannerText{
     width: 255px;
@@ -76,12 +84,17 @@ button{
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
     cursor: pointer;
+    margin-top: 50px;
+}
+#men{
+    margin-top: 100px;
 }
 .pros{
     height: 240px;
     width: 1010px;
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 .pros .face{
     width: 150px;
@@ -121,4 +134,183 @@ button{
     width: 1440px;
     height: 395px;
     background-color: #C271FF;
+}
+
+.tutorials{
+    color: #071629;
+    height: 450px;
+    width: 1230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.tutorials h1{
+    font-size: 32px;
+    font-weight: 200;
+    margin: 0;
+}
+.tutorials h2{
+    font-size: 16px;
+    color: #071629;
+    margin-bottom: 0;
+}
+.videos{
+    height: 335px;
+    width: 1115px;
+    display: flex;
+    justify-content: space-between;
+}
+.eachVideo{
+    height: 335px;
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.videos p{
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+.rater{
+    display: flex;
+    height: 30px;
+    width: 130px;
+    align-items: center;
+    justify-content: space-between;
+}
+.rater img{
+    height: 30px;
+    width: 30px;
+}
+.rater h3{
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.rating{
+    height: 30px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating p{
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/**Membership Styling**/
+.membership{
+    background-color: #071629;
+    width: 1440px;
+    height: 505px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.membership h1{
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 50px;
+}
+
+.membership button{
+    margin-top: 80px;
+}
+
+.members{
+    display: flex;
+    justify-content: space-between;
+    height: 155px;
+    width: 1115px;
+    margin-top: 50px;
+}
+
+.eachMember{
+    height: 155px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.FAQs{
+    height: 710px;
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #071629;
+    margin-top: 80px;
+}
+
+.FAQs h1{
+    font-size: 80px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.FAQs p{
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.FAQs{
+    font-size: 16px;
+    font-weight: bold;
+}
+.questions{
+    height: 560px;
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.eachQuestion{
+    height: 245px;
+    width: 350px;
+}
+
+footer{
+    height: 250px;
+    width: 1440px;
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+footer img{
+    height: 30;
+    width: 170px;
+}
+footer p{
+    font-size: 12px;
+    font-family: 'Source Sans Pro Light';
+    color: #ffffff;
+    margin-top: 50px;
+}
+.footer{
+    height: 35px;
+    width: 1035px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.footerIcons{
+    height: 30px;
+    width: 130px;
 }
